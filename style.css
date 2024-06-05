@@ -2,3 +2,30 @@ body {
     background-color: whitesmoke;
     color: darkblue;
 }
+
+@font-face {
+    font-family: Koulen;
+    src: url(fonts/Koulen.ttf);
+}
+
+div.header {
+    background-color: gray;
+
+}
+
+nav.navbar {
+    background-color: #222222;
+}
+
+a.navbar-brand {
+    font-family: Koulen;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+a.nav-link {
+    color: #ffffff;
+}
+
+
+
