@@ -1,0 +1,33 @@
+body {
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+@font-face {
+    font-family: Koulen;
+    src: url(fonts/Koulen.ttf);
+}
+
+div.header {
+    background-color: gray;
+    height: 600px;
+
+}
+
+nav.navbar {
+    background-color: #222222;
+    height: 100px;
+}
+
+a.navbar-brand, a:hover.navbar-brand {
+    font-family: Koulen;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+a.nav-link, a:hover.nav-link {
+    color: #ffffff;
+}
+
+
+
