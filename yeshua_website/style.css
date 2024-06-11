@@ -42,7 +42,7 @@ body {
 
 div.Home-header {
     background-color: #222222;
-    color: white;
+    color: #ffffff;
     height: 860px;
 }
 
@@ -52,10 +52,46 @@ div.Home-mid{
     height: 1000px;
 }
 
+div.Portfolio-text{
+    background-color: #222222;
+    color: #ffffff;
+    height: 100px;
+}
+
+div.Portfolio-main{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.Portfolio-overlay{
+    display: inline-block;
+    position: fixed;
+    margin: auto;
+    inset: 0px;
+    z-index: 10;
+    background-color: #4F2B2B;
+    color: #ffffff;
+    height: 50%;
+    width: 50%;
+}
+
+div.spacer-port {
+    display: block;
+    background-color: #222222;
+    padding-bottom: 82px;
+}
+
 div.spacer {
     display: block;
     background-color: #D8D8D8;
     padding-bottom: 10px;
+}
+
+div.footer{
+    background-color: #4F2B2B;
+    color: #ffffff;
+    height: 700px;
+    padding-top: 100px;
 }
 
 nav.navbar {
@@ -65,7 +101,7 @@ nav.navbar {
 
 a.navbar-brand, a:hover.navbar-brand {
     font-family: Koulen;
-    font-size: 40px;
+    font-size: 28px;
     color: #ffffff;
 }
 
