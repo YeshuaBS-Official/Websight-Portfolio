@@ -61,9 +61,10 @@ div.Portfolio-text{
 div.Portfolio-main{
     background-color: #333333;
     color: #ffffff;
+    border: none;
 }
 
-.Portfolio-overlay{
+div.Portfolio-overlay{
     display: inline-block;
     position: fixed;
     margin: auto;
@@ -71,8 +72,22 @@ div.Portfolio-main{
     z-index: 10;
     background-color: #4F2B2B;
     color: #ffffff;
-    height: 50%;
+    height: 60%;
     width: 50%;
+    visibility: hidden;
+}
+
+/*display: inline-block;*/
+
+div.Shade-overlay{
+    display: inline-block;
+    position: fixed;
+    margin: auto;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
 }
 
 div.spacer-port {
